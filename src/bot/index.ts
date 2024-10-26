@@ -103,12 +103,12 @@ bot.start(async (ctx) => {
           //       "https://x.com/oniontap_bot?t=MvmutTzvpVTe8_PZK6apTA&s=09"
           //     ),
           //   ],
-          [
-            Markup.button.webApp(
-              "🔥 Test Play now!",
-              `https://zl3tblm9-5173.uks1.devtunnels.ms/`
-            ),
-          ],
+          // [
+          //   Markup.button.webApp(
+          //     "🔥 Test Play now!",
+          //     `https://zl3tblm9-5173.uks1.devtunnels.ms/`
+          //   ),
+          // ],
           [
             Markup.button.webApp(
               "🔥 Play now!",
