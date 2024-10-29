@@ -88,7 +88,19 @@ bot.start(async (ctx) => {
   ctx.replyWithPhoto(
     { url: imageUrl },
     {
-      caption: `Welcome to Onion AI, @${ctx.from.username}!\n\nBoost your balance with every tap.\n\Space Combat: Leading the way in decentralized platforms.\nOur decentralized platform integrates advanced AI with robust data processing for Real-World Assets (RWAs).\nGet ready for the biggest distribution of Onion AI Token among users. \n\nInvite your network—more connections mean more rewards!\n\nJoin us on our mission to lead AI-driven RWA management.`,
+      caption: `Welcome to Onion AI, @${ctx.from.username}!\n\n
+      Step into the Space Kombat universe! \n\n
+Experience the next level of gameplay on Telegram. Join the elite space warriors, where every move matters and your skills are put to the test. Complete missions, earn rewards, and dominate the galaxy. \n\n
+Key Features \n
+. Battle players in intergalactic Kombat \n
+. Unlock and upgrade powerful ships and weapons. \n
+. Challenge your friends and rise through the ranks/leaderboard. \n
+Ready to embark on a thrilling space adventure? Let’s get started! \n\n
+Welcome, Space Commander! \n\n
+
+🚀 Upgrade your ship now, boost your ranking, and unlock exclusive rewards.\n
+🎮 Challenge your fellow commanders and rise to the top. \n
+`,
       reply_markup: {
         inline_keyboard: [
           //   [
