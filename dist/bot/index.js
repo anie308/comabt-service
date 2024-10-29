@@ -62,7 +62,7 @@ const getProfilePicture = async (userId) => {
         return null;
     }
 };
-const imageUrl = "https://res.cloudinary.com/wallnet/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1716556851/onionai_sny5e8.png";
+const imageUrl = "https://res.cloudinary.com/djasnkjdo/image/upload/v1730210253/Jet_Design_xrkbve.png";
 // bot.telegram
 // Start command
 bot.start(async (ctx) => {
@@ -70,7 +70,7 @@ bot.start(async (ctx) => {
     const username = ctx.from.username;
     const profilePicture = await getProfilePicture(ctx.from.id);
     ctx.replyWithPhoto({ url: imageUrl }, {
-        caption: `Welcome to Onion AI, @${ctx.from.username}!\n\n
+        caption: `Welcome to Space Kombat, @${ctx.from.username}!\n\n
       Step into the Space Kombat universe! \n\n
 Experience the next level of gameplay on Telegram. Join the elite space warriors, where every move matters and your skills are put to the test. Complete missions, earn rewards, and dominate the galaxy. \n\n
 Key Features \n
